@@ -21,9 +21,17 @@ pip install blendercolors
 ```python
 from blendercolors import bcolors
 
-print(f"{bcolors.WARNING}Warning: No active frommets remain. Continue?{bcolors.ENDC}")
-print(f"{bcolors.OKGREEN}Success!{bcolors.ENDC}")
+print(f"{bcolors.WARNING}Yellow color for warnings{bcolors.ENDC}")
+print(f"Three OK colors")
+print(f" {bcolors.OKGREEN}green{bcolors.ENDC}, {bcolors.OKBLUE}blue{bcolors.ENDC} and {bcolors.OKCYAN}cyan{bcolors.ENDC}")
+print(f"{bcolors.FAIL}Red for error texts{bcolors.ENDC}")
+
+# And anytime your can disable all coloring without remove previos written, just place this string at top:
+bcolors.disable()
+
 ```
+
+![Example output](example.png)
 
 Start coloring text with defined choiced color, finish coloring by bcolors.ENDC
 
