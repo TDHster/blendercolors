@@ -1,14 +1,15 @@
 # Blendercolors
 
-A simple module for coloring terminal output via ANSI codes. Based on the classic bcolors snippet from Blender 3D source code.
+A simple module for coloring terminal output via ANSI codes with a few colors. 
 
 Works on all terminals with ANSI. (Linux, MacOS, modern Windows)
 
-## Features
+Lightweight and *dependency-free*
 
-- Simple ANSI color codes
-- Cross-platform (works in most modern terminals)
-- Lightweight and *dependency-free*
+### What you get
+Just put inside f-string in print:
+![Demo](https://raw.githubusercontent.com/tdhster/blendercolors/main/example.png)
+
 
 ## Installation
 
@@ -23,22 +24,19 @@ from blendercolors import bcolors
 
 print(f"{bcolors.WARNING}Yellow color for warnings{bcolors.ENDC}")
 print(f"Three OK colors")
-print(f" {bcolors.OKGREEN}green{bcolors.ENDC}, {bcolors.OKBLUE}blue{bcolors.ENDC} and {bcolors.OKCYAN}cyan{bcolors.ENDC}")
+print(f" {bcolors.OKGREEN}green{bcolors.ENDC}, \
+         {bcolors.OKBLUE}blue{bcolors.ENDC} and \
+         {bcolors.OKCYAN}cyan{bcolors.ENDC}")
 print(f"{bcolors.FAIL}Red for error texts{bcolors.ENDC}")
-
-# And anytime your can disable all coloring without remove previos written, just place at top of program:
-bcolors.disable()
-
+# and others color and formatting.
 ```
-
-![Demo](https://raw.githubusercontent.com/tdhster/blendercolors/main/example.png)
 
 Start coloring text with defined choiced color, finish coloring by bcolors.ENDC
 
 ANSI codes:
 ```python
 
-    HEADER = '\033[95m'
+    HEADEanytimeR = '\033[95m'
     OKBLUE = '\033[94m'
     OKCYAN = '\033[96m'
     OKGREEN = '\033[92m'
@@ -47,6 +45,12 @@ ANSI codes:
     ENDC = '\033[0m'
     BOLD = '\033[1m'
     UNDERLINE = '\033[4m'
+```
+
+Anytime your can disable all coloring without removing previos written code, just place at top of program:
+
+```python
+bcolors.disable()
 ```
 
 Based on the classic bcolors snippet popularized by Blender and Stack Overflow.
