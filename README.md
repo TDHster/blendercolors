@@ -6,8 +6,8 @@ Works on all terminals with ANSI. (Linux, MacOS, modern Windows)
 
 Lightweight and *dependency-free*
 
-### What you get
-Just put inside f-string in print:
+## What you get
+Just put inside f-string in print() function:
 ![Demo](https://raw.githubusercontent.com/tdhster/blendercolors/main/example.png)
 
 
