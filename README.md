@@ -26,12 +26,12 @@ print(f"Three OK colors")
 print(f" {bcolors.OKGREEN}green{bcolors.ENDC}, {bcolors.OKBLUE}blue{bcolors.ENDC} and {bcolors.OKCYAN}cyan{bcolors.ENDC}")
 print(f"{bcolors.FAIL}Red for error texts{bcolors.ENDC}")
 
-# And anytime your can disable all coloring without remove previos written, just place this string at top:
+# And anytime your can disable all coloring without remove previos written, just place at top of program:
 bcolors.disable()
 
 ```
 
-![Example output](example.png)
+![Demo](https://raw.githubusercontent.com/tdhster/blendercolors/main/example.png)
 
 Start coloring text with defined choiced color, finish coloring by bcolors.ENDC
 

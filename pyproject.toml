@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "blendercolors"             
-version = "0.1.0"
+version = "0.1.2"
 description = "The simplest module for coloring terminal output via ansi codes. Originally from blender 3d source code."
 readme = "README.md"
 license = {text = "GPL-3.0-or-later"}
