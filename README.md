@@ -56,3 +56,5 @@ bcolors.disable()
 Based on the classic bcolors snippet popularized by Blender and Stack Overflow.
 
 Inspired by stackoverflow post: https://stackoverflow.com/questions/287871/how-do-i-print-colored-text-to-the-terminal
+
+[![PyPI Downloads](https://static.pepy.tech/personalized-badge/blendercolors?period=total&units=INTERNATIONAL_SYSTEM&left_color=BLACK&right_color=GREEN&left_text=downloads)](https://pepy.tech/projects/blendercolors)
