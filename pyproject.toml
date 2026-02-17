@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "blendercolors"             
-version = "0.1.4"
+version = "0.1.5"
 description = "The simplest module for color terminal output. Use ANSI sequences, working almost everywhere, no dependecies."
 readme = "README.md"
 license = {text = "GPL-3.0-or-later"}
